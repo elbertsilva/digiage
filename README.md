@@ -1,7 +1,16 @@
-SQL:
-SELECT _ FROM employees.employees;
-SELECT _ FROM employees.salaries;
-SELECT COUNT(gender) as QTDEdeFuncionario from employees.employees group by gender;
-SELECT gender,hire_date,birth_date, COUNT(DISTINCT emp_no) AS QTDE FROM employees.employees GROUP BY gender ORDER BY hire_date,birth_date;
-SELECT gender,AVG(salary) AS media,MIN(salary) AS min, MAX(salary) AS max FROM employees.employees GROUP BY gender;
-SELECT a.gender,AVG(b.salary) AS media,MIN(b.salary) AS min, MAX(b.salary) AS max FROM employees.employees a inner join employees.salaries b on a.emp_no = b.emp_no GROUP BY gender;
+# README #
+
+This document contains instructions to how to make your test. If you have any doubt, mail us at recrutamento@digiage.com.br.  
+
+### What is this repository for? ###
+
+* This repository contains some code. It might be compiling or not :)
+
+### What it this test for and what should I do? ###
+
+* First of all, if you got here, that´s probably you got an email from us.
+* Just do some coding based on what you where asked for by email and that´s all.
+* Delivery your test by submitting a Pull Request and notify your contact at DigiAge.
+
+### Contribution guidelines and Tips###
+* All tips and contributions are welcome. But be aware that existing errors might not be an accident. We would appreciate if you let us know anything that you realize during the exam. We expect that and it could raise your interview evaluation up.
