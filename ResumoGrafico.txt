@@ -1,0 +1,6 @@
+A memória e o CPU os números indicam que o sistema está usando uma quantidade
+ relativamente baixa de recursos, o que é uma boa notícia,
+ pois significa que há recursos disponíveis para outras tarefas.
+Server request parte da memória disponível no sistema está sendo utilizada. Isso pode levar a problemas de desempenho se o sistema estiver operando constantemente com uma alta carga de memória.
+carregamento de pagina completo do lado do cliente 
+otimizações para alcançando um tempo de carregamento da página completo (full page load) do lado do cliente em menos de 4 segundos, especificamente superior a 95% das páginas.
